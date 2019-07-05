@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matt&#39;s Experience on Matt&#39;s Experience</title>
@@ -6,7 +5,41 @@
     <description>Recent content in Matt&#39;s Experience on Matt&#39;s Experience</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 14 Apr 2019 16:01:19 -0600</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Claw Arm</title>
+      <link>/project/gripper/</link>
+      <pubDate>Sun, 14 Apr 2019 16:01:19 -0600</pubDate>
+      
+      <guid>/project/gripper/</guid>
+      <description>&lt;p&gt;For our final project in Mechatronics, we created a claw that would grab an object and calculate the width of it. I worked on this project with Christian Crowley and Yunsik Jung.&lt;/p&gt;
+
+&lt;p&gt;The criteria for this project was to create a device with at least one sensor and one actuator. It also needed to be programmable and use a custom designed pcb.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Turtlebot</title>
+      <link>/project/turtlebot/</link>
+      <pubDate>Sun, 14 Apr 2019 16:01:19 -0600</pubDate>
+      
+      <guid>/project/turtlebot/</guid>
+      <description>&lt;p&gt;For our final project in Human Centered Robotics, we investigated different exploration methods for mapping an indoor environment. I performed this project with Alex Dodge, Mitchell Waibel, and Tyler Thune.&lt;/p&gt;
+
+&lt;p&gt;The equipment utilized for this project were a TurtleBot 2 with and Orbbec Astra camera. For mapping the Turtlebot&amp;rsquo;s surroundings, we compared the Real-Time Apperance Based Mapping and GMapping algorithms. For exploration, we used the Fronteir Exploration algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Effects of Uniaxial Tensile Strain on Moth Wings Through Digital Image Correlation</title>
+      <link>/publication/sirc2018/</link>
+      <pubDate>Sun, 01 Apr 2018 22:58:02 -0600</pubDate>
+      
+      <guid>/publication/sirc2018/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

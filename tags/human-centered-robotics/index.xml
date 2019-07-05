@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human-Centered-Robotics on Matt&#39;s Experience</title>
+    <link>/tags/human-centered-robotics/</link>
+    <description>Recent content in Human-Centered-Robotics on Matt&#39;s Experience</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Apr 2019 16:01:19 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/human-centered-robotics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Turtlebot</title>
+      <link>/project/turtlebot/</link>
+      <pubDate>Sun, 14 Apr 2019 16:01:19 -0600</pubDate>
+      
+      <guid>/project/turtlebot/</guid>
+      <description>The aim of this project is to have a turtlebot explore and map its environment.</description>
+    </item>
+    
+  </channel>
+</rss>

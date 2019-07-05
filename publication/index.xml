@@ -6,9 +6,19 @@
     <description>Recent content in Publications on Matt&#39;s Experience</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 01 Apr 2018 22:58:02 -0600</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Effects of Uniaxial Tensile Strain on Moth Wings Through Digital Image Correlation</title>
+      <link>/publication/sirc2018/</link>
+      <pubDate>Sun, 01 Apr 2018 22:58:02 -0600</pubDate>
+      
+      <guid>/publication/sirc2018/</guid>
+      <description>Our research investigated the Poisson&amp;rsquo;s ratio of the Hummingbird Hawkmoth across the surface of the wing.</description>
+    </item>
     
   </channel>
 </rss>

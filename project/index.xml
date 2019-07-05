@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Matt&#39;s Experience</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Matt&#39;s Experience</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Apr 2019 16:01:19 -0600</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Claw Arm</title>
+      <link>/project/gripper/</link>
+      <pubDate>Sun, 14 Apr 2019 16:01:19 -0600</pubDate>
+      
+      <guid>/project/gripper/</guid>
+      <description>The aim of this project is to create a claw that knows the size of the object it is grasping.</description>
+    </item>
+    
+    <item>
+      <title>Turtlebot</title>
+      <link>/project/turtlebot/</link>
+      <pubDate>Sun, 14 Apr 2019 16:01:19 -0600</pubDate>
+      
+      <guid>/project/turtlebot/</guid>
+      <description>The aim of this project is to have a turtlebot explore and map its environment.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 on Matt&#39;s Experience</title>
+    <link>/publication_types/0/</link>
+    <description>Recent content in 0 on Matt&#39;s Experience</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Apr 2018 22:58:02 -0600</lastBuildDate>
+    
+	<atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Effects of Uniaxial Tensile Strain on Moth Wings Through Digital Image Correlation</title>
+      <link>/publication/sirc2018/</link>
+      <pubDate>Sun, 01 Apr 2018 22:58:02 -0600</pubDate>
+      
+      <guid>/publication/sirc2018/</guid>
+      <description>Our research investigated the Poisson&amp;rsquo;s ratio of the Hummingbird Hawkmoth across the surface of the wing.</description>
+    </item>
+    
+  </channel>
+</rss>

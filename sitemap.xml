@@ -1,5 +1,140 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+    
+      <loc>/project/gripper/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/grasping/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/human-centered-robotics/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/mechatronics/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/project/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/slam/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/project/turtlebot/</loc>
+      <lastmod>2019-04-14T16:01:19-06:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/publication_types/0/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/digital-image-correlation/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/publication/sirc2018/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/julien-hajjar-18/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/materials/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/matthew-stanley-18/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/publication/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/sirc/</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/timothy-fitzgerald-asst.-prof./</loc>
+      <lastmod>2018-04-01T22:58:02-06:00</lastmod>
+      <priority>0</priority>
+    </url>
   
     <url>
     
@@ -14,19 +149,7 @@
   
     <url>
     
-      <loc>/authors/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/</loc>
       <priority>0</priority>
     </url>
   
@@ -37,24 +160,7 @@
   
     <url>
     
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/publication/</loc>
-    </url>
-  
-    <url>
-    
       <loc>/talk/</loc>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/</loc>
-      <priority>0</priority>
     </url>
   
     <url>
