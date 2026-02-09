@@ -3,24 +3,19 @@
   "icon": "bi bi-kanban",
   "list": [
     {
-      "title": "Project 1",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "Break My Game",
+      "url": "https://triblades34.itch.io/break-my-game",
+      "description": "My submission for the Break Break Jam hosted by the Colorado School of Mines. The theme for the Jam is 'break'. In my game, 'Break My Game', I explore common glitches in old games and attempt to recreate as achievements in my game. The game is a 2D platformer where the player attempts to break pots and the game itself. The game was created in Godot with my art assets created in LibreSprite. The game won first place in the jam with a score of 166/200."
     },
     {
-      "title": "Project 2",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "Measuring Claw",
+      "url": "/docs/ProjectReport_TheClawArm.pdf",
+      "description": "For our final project in Mechatronics, we created a claw that would grab an object and calculate the width of it. I worked on this project with Christian Crowley and Yunsik Jung. The criteria for this project was to create a device with at least one sensor and one actuator. It also needed to be programmable and use a custom designed pcb."
     },
     {
-      "title": "Project 3",
-      "url": "#",
-      "description": "Description of the project"
-    },
-    {
-      "title": "Project 4",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "Turtleboy SLAM",
+      "url": "/docs/HCR_Poster_Final.pdf",
+      "description": "For our final project in Human Centered Robotics, we investigated different exploration methods for mapping an indoor environment. I performed this project with Alex Dodge, Mitchell Waibel, and Tyler Thune. The equipment utilized for this project were a TurtleBot 2 with and Orbbec Astra camera. For mapping the Turtlebot’s surroundings, we compared the Real-Time Apperance Based Mapping and GMapping algorithms. For exploration, we used the Fronteir Exploration algorithm."
     }
   ]
 }

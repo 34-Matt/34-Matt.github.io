@@ -1,27 +1,57 @@
 {
-  "title": "Experiences",
+  "title": "Experience",
   "icon": "bi bi-briefcase",
-  "list": [{
-      "position": "Job Title",
-      "dates": "2022 - *Present*",
-      "url": "#",
-      "company": "Company Name"
-    },
+  "list": [
     {
-      "position": "Job Title",
-      "dates": "2019 - 2022",
-      "company": "Company Name",
+      "position": "Engineer Consultant",
+      "dates": "May 2018 - Aug 2018",
+      "url": "https://www.vigilantsolutions.com/",
+      "company": "Vigilant Solutions",
+      "location": "California",
       "details": [
-        "Printed from desktop. Sent [emails](#). Called people *using* telephone.",
-        "Drank water from office cooler.",
-        "Ate donuts on people's birthdays."
+        "Collected images for Ballistic Database",
+        "Setup and operated 3D printer",
+        "Helped design prototype mounts",
+        "Aided in general IT maintenance"
       ]
     },
     {
-      "position": "Job Title",
-      "dates": "2018 - 2019",
-      "url": "#",
-      "company": "Company Name"
+      "position": "Engineer Consultant",
+      "dates": "Jun 2017 - Aug 2017",
+      "url": "https://www.harbor-electronics.com/",
+      "company": "Harbor Electronics",
+      "location": "California",
+      "details": [
+        "Learned the process for creating a printed circuit board (PCB)",
+        "Performed risk analysis for PCB lamination failures",
+        "Presented analysis and solutions to reduce lamination failures",
+        "Designed tools and oversaw production of the favored solution"
+      ]
+    },
+    {
+      "position": "Research Assistant",
+      "dates": "Mar 2016 - May 2018",
+      "url": "https://www.gonzaga.edu/",
+      "company": "Gonzaga University",
+      "location": "Washington",
+      "details": [
+        "Creation of the Vibrations Laboratory",
+        "Designed experiment procedures for determining insect wing properties",
+        "Operated Edgertronic high-speed camera and tensile tester",
+        "Analyzed displacement results to obtain elastic properties of moth wings"
+      ]
+    },
+    {
+      "position": "Research Assistant",
+      "dates": "July 2020 - August 2025",
+      "url": "https://www.mines.edu/",
+      "company": "Colorado School of Mines",
+      "location": "Colorado",
+      "details": [
+        "Thesis: Toward a Universal Framework for Mapping Human Motion to Morphologically Diverse Robots",
+        "Created research proposals to further ventures",
+        "Applied machine learning expertise beyond robotics, including energy and material science"
+      ]
     }
   ]
 }

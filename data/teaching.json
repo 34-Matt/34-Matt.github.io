@@ -1,0 +1,44 @@
+{
+  "title": "Teaching",
+  "icon": "bi bi-apple",
+  "list": [
+    {
+      "position": "Teaching Assistant",
+      "dates": "January 2021 - December 2021",
+      "url": "https://www.mines.edu/",
+      "company": "Colorado School of Mines",
+      "location": "Colorado",
+      "details": [
+        "Primary instructor for MEGN 441L Introduction to Robotics",
+        "Guided students through mechanical, electrical, and computer science design for robots",
+        "Taught software design, hardware validation, autonomous navigation, and exploration",
+        "Taught lecture course while instructor travelled to conferences"
+      ]
+    },
+    {
+      "position": "Keynote Speaker",
+      "dates": "June 2024",
+      "url": "https://tech.mines.edu/",
+      "company": "Colorado School of Mines",
+      "location": "Colorado",
+      "details": [
+        "Keynote speaker for DECtech outreach for students grades 4 to 10",
+        "Introduced AI in robotics",
+        "Taught AI toolboxes in Scratch for motion control in games"
+      ]
+    },
+    {
+      "position": "Keynote Speaker and Research Manager",
+      "dates": "May 2025 - July 2025",
+      "url": "https://www.mines.edu/teacherprep/modern-ai-assisted-robotics-research-experience-for-teachers-mar-ret/",
+      "company": "Colorado School of Mines",
+      "location": "Colorado",
+      "details": [
+        "Keynote speaker for MAR-RET outreach for high-school teachers",
+        "Guided discussion on preparation for their students to pursue robotics in college",
+        "Taught machine learning and robotics on Jetson robots",
+        "Managed independant research for self balancing stilts and robotic hand design and control"
+      ]
+    }
+  ]
+}

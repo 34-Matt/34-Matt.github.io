@@ -3,28 +3,63 @@
   "icon": "bi bi-book",
   "format": ["date", "authors", "title", "journal"],
   "delimiter": "; ",
-  "types": ["Journal Articles", "Proceedings"],
+  "types": ["Journal Articles", "Proceedings", "Chapter", "Poster"],
   "list": [
     {
-      "title": "[*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua*](#)",
-      "authors": "F Last, *F Second*, P secondary",
+      "title": "Effects of Uniaxial Tensile Strain on Moth Wings Through Digital Image Correlation",
+      "authors": "Matthew Stanley, Julien Hajjar, Timothy Fitzgerald",
       "date": "2018",
-      "journal": "Journal of Field 52 (16), 9033-9044",
-      "type": "Journal Articles"
+      "journal": "Spokane Intercollegiate Research Conference",
+      "type": "Poster",
+      "abstract": "The aim of my research is to investigate the material properties of Hawkmoth wings, specifically the measurement of Young’s Modulus and the Poisson’s ratio for bulk pieces of the wing. This was achieved by raising moths, slicing their wings into strips, and measuring the stress and strains during uniaxial tensile testing. Digital image correlation was used to compute the deformation of the wing under constant strain with greater accuracy. While others have investigated small portions of insect wings, a bulk method is novel. Preliminary results possess attributes similar to the outcomes of previous studies, along with the presence of relaxation. This presentation will discuss my findings about Poisson’s ratio of Hummingbird Hawkmoth wings."
     },
     {
-      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "authors": "F Last, F Second, P secondary",
-      "date": "2018",
-      "journal": "[Journal of Field 52 (16), 9033-9044](#)",
-      "type": "Journal Articles"
+      "title": "An Active Learning Strategy for the Development of Data-Driven Reactor Models",
+      "authors": "Cliff Ghiglieri, Michael Bowman, Matthew Stanley, Xiaoli Zhang, Jeffery King",
+      "date": "2021",
+      "journal": "International Congress on Advances in Nuclear Power Plants",
+      "type": "Proceedings",
+      "abstract": "There is a recent and growing interest in applying machine learning and artificial intelligence techniques to the monitoring and operation of nuclear reactor systems. One challenge posed by the application of machine learning techniques to nuclear reactor power systems is the need for a large and reliable set of data for the data-driven models tolearnfrom.Thus, in the near term, it is likely that machine learning models for nuclear systems will be built using physics-based simulation data.This poses an additional challenge – many reactor simulations are based on Monte Carlo methods, which can be computationally expensiveand include uncertainties inherent to Monte Carlo solutions. This project developed a machine learning model for the critical control rod positions in a sodium-cooled fast reactor, using an active learning model coupled to aMonte Carlo N-Particle (MCNP) physics-based model.Initial results indicate that including a selection filter in the activelearning routines based on a simple control rod worth curve can significantly reduce the required search space and improve the efficiency of the active learning process."
     },
     {
-      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "authors": "F Last, F Second, P secondary",
-      "date": "2018",
-      "journal": "Journal of Field 52 (16), 9033-9044",
-      "type": "Proceedings"
+      "title": "Data-Driven Uncertainty-Aware Nuclear Power Plant Sensor Modeling",
+      "authors": "Matthew Stanley, Michael Bowman, Xiaoli Zhang, Jeffery King",
+      "date": "2021",
+      "journal": "International Congress on Advances in Nuclear Power Plants",
+      "type": "Proceedings",
+      "abstract": "The monitoring of a nuclear power plant is important to ensure it is operating within the conditions specified in the reactor’s licensing and safety documentation. Data collection from sensors is critical for monitoring the status of a reactor, for providing real-time feedback signals in closed-loop control, and for predicting a reactor’s future conditions. However, the challenging operational environment in a nuclear reactor core often results in high sensor uncertainties with significant amounts of noise. To overcome these environmental challenges, an uncertainty-aware data-driven model is developed to filter the noise and reduce the sensor uncertainties. The methods were tested on trials from the Transient Reactor Test Facility (TREAT); however, this approach can be generalized such that it can be used in different reactors with various sensors. The resulting model significantly improves the sensor output from a collection of self-powered gamma detectors tested during steady-state and pulsed operations."
+    },
+    {
+      "title": "Robust Motion Mapping Between Human and Humanoids Using CycleAutoencoder",
+      "authors": "Matthew Stanley, Lingfeng Tao, Xiaoli Zhang",
+      "date": "2021",
+      "journal": "IEEE International Conference on Robotics and Biomimetics",
+      "type": "Proceedings",
+      "abstract": "Teleoperation needs accurate and robust motion mapping between human and humanoid motion to generate intuitive robot control with human-like motion. Data-driven methods are often deployed as it can result in intuitive, real time motion mapping. When using these methods, the common focus is on the accuracy of the motion mapping model. However, effort needs to be put into making the mapping model robust in face of noisy or incomplete dataset. In other words, the model needs to learn the generalizable mapping rules, not just be accurate in predicting the training data. To create a robust and accurate model for motion mapping, we developed the novel CycleAutoencoder method. This method simultaneously trains two autoencoders using traditional losses, mixed losses, and cycle losses. These losses allow the autoencoders to reconstruct the motion mutually between humans and humanoids. This allows the method to learn the mapping with improved accuracy and robustness compared to training a traditional autoencoder. The results of human subject involved experiments demonstrated that the CycleAutoencoder method can achieve both accuracy and robustness for the mapping compared with other autoencoder-based mapping methods."
+    },
+    {
+      "title": "Transferability-based Chain Motion Mapping from Humans to Humanoids for Teleoperation",
+      "authors": "Matthew Stanley, Yunsik Jung, Michael Bowman, Lingfeng Tao, Xiaoli Zhang",
+      "date": "2022",
+      "journal": "arXiv",
+      "type": "Proceedings",
+      "abstract": "Although data-driven motion mapping methods are promising to allow intuitive robot control and teleoperation that generate human-like robot movement, they normally require tedious pair-wise training for each specific human and robot pair. This paper proposes a transferability-based mapping scheme to allow new robot and human input systems to leverage the mapping of existing trained pairs to form a mapping transfer chain, which will reduce the number of new pair-specific mappings that need to be generated. The first part of the mapping schematic is the development of a Synergy Mapping via Dual- Autoencoder (SyDa) method. This method uses the latent features from two autoencoders to extract the common synergy of the two agents. Secondly, a transferability metric is created that approximates how well the mapping between a pair of agents will perform compared to another pair before creating the motion mapping models. Thus, it can guide the formation of an optimal mapping chain for the new human-robot pair. Experiments with human subjects and a Pepper robot demonstrated 1) The SyDa method improves the accuracy and generalizability of the pair mappings, 2) the SyDa method allows for bi-directional mapping that does not prioritize the direction of mapping motion, and 3) the transferability metric measures how compatible two agents are for accurate teleoperation. The combination of the SyDa method and transferability metric creates generalizable and accurate mapping need to create the transfer mapping chain."
+    },
+    {
+      "title": "A Pairing-Free Approach for End-to-End Mapping from Human to Kinematically-Dissimilar Robotic Hands",
+      "authors": "Matthew Stanley, Xiaoli Zhang",
+      "date": "2026",
+      "journal": "Bridging the Gap between Mind and Machine",
+      "type": "Chapter",
+      "abstract": "End-to-end mapping from human to robot hand poses offers a compelling, non-invasive approach for translating visual hand data into robot joint commands. However, existing methods rely heavily on labor-intensive, hand-structure-specific paired datasets, hindering scalability and cross-device adaptability. To address these limitations, we propose End-to-End Partial Supervision Mapping (EPSM), a novel framework that decouples pose information from structure-specific information through a shared latent grasp feature space. EPSM employs a unified encoder to extract low-dimensional grasp representations from depth images, while separate decoders reconstruct robot joint angles tailored to specific hand structures. By sharing encoder weights across models and isolating decoder training to individual robotic hands, EPSM enables cross-structure mapping via decoder swapping—without requiring any human-robot paired training data across different configurations. We demonstrate the effectiveness of EPSM by mapping human hand poses to three robotic hands with varying finger counts (three, four, and five), showcasing its potential as a generalizable and scalable solution for human-robot hand interaction."
+    },
+    {
+      "title": "Precision Grasping Poses with the Pairing-Free End-to-End Partial Supervised Mapping Method",
+      "authors": "Matthew Stanley, Xiaoli Zhang",
+      "date": "2026",
+      "journal": "International Congress on Information and Communication Technology",
+      "type": "Proceedings",
+      "abstract": "Synergy-based end-to-end methods for human to robot hand mapping combines the simplicity of synergy-based poses with the intuitive control structure of end-to-end learning. Although hand synergies can represent various hand poses, they cannot represent all poses. Prior work combined the synergy and end-to-end methods to create a pairing-free mapping framework that learns to extract structure-independent synergy features from images that apply to all hand structures; however, the resulting models are limited to a synergy-based poses. This constraint arises from the low-dimensional representation of synergy, which does not preserve sufficient information to reconstruct complex hand configurations. This work expands the End-to-End Partial Supervised Mapping method to learn new latent features from images of the hand that are leverage to obtain more grasping poses."
     }
   ]
 }

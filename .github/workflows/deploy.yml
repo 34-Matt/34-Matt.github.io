@@ -35,11 +35,8 @@ jobs:
 
       - name: Build Hugo site
         run: |
-          hugo -b https://aafu.darshanbaral.com/
+          hugo
           npx -y pagefind --site public
-
-      - name: Add CNAME file for custom domain
-        run: echo "aafu.darshanbaral.com" > public/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

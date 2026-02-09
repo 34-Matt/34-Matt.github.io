@@ -3,23 +3,21 @@
   "icon": "bi bi-mortarboard",
   "list": [
     {
-      "degree": "Ph.D. in Subject",
-      "college": "University of State-City",
-      "dates": "2013 - 2018",
-      "thesis_title": "Effect of humans on other humans: a study of human behavior.",
+      "degree": "Ph.D. in Mechanical",
+      "college": "Colorado School of Mines",
+      "dates": "2020 - 2026",
+      "thesis_title": "Toward a Universal Framework for Mapping Human Motion to Morphologically Diverse Robots",
       "thesis_url": "#"
     },
     {
-      "degree": "M.S. in Subject",
-      "college": "University of State-City",
-      "dates": "2013 - 2018",
-      "thesis_title": "Effect of humans on other humans: a study of human behavior.",
-      "thesis_url": "#"
+      "degree": "M.S. in Mechanical",
+      "college": "Colorado School of Mines",
+      "dates": "2018 - 2020"
     },
     {
-      "degree": "B.S. in Subject",
-      "college": "University of State-City",
-      "dates": "2004 - 2009"
+      "degree": "B.S. in Mechanical",
+      "college": "Gonzaga University",
+      "dates": "2014 - 2018"
     }
   ]
 }

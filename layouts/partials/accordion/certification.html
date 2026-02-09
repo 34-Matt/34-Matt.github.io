@@ -1,0 +1,12 @@
+{{ range .Site.Data.certification.list }}
+
+<h4 style="text-decoration: underline;">
+  <a href="{{ .url }}">{{- .title -}}</a>
+</h4>
+<p {{ if .title }}class="mb-0" {{ end }}>
+  {{- .dates }} &middot; {{ .organization -}}
+</p>
+{{ if .description }}
+<p class="markdownify indent-8">{{- .description | markdownify -}}</p>
+{{ end }}
+{{ end }}

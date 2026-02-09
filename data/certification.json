@@ -1,0 +1,19 @@
+{
+  "title": "Certifications",
+  "icon": "bi bi-award",
+  "list": [
+    {
+      "title": "FE Mechanical",
+      "organization": "National Council of Examiners for Engineering and Surveying",
+      "dates": "March 2018",
+      "url": "https://account.ncees.org/rn/1855235-1058077-9e628c3"
+    },
+    {
+      "title": "CSWA - Mechanical Design",
+      "organization": "Dassault Systemes",
+      "dates": "December 2015",
+      "url": "",
+      "description": "Credential ID C-RT3E3DG44L"
+    }
+  ]
+}
