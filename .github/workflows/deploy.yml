@@ -84,6 +84,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
+          npx -y pagefind --site public
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5
