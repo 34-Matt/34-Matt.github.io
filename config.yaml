@@ -18,11 +18,11 @@ params:
     - item: about_me
       expand: true # only the first `expand: true` will take effect
     - item: skills
+      panel_id: skill-panel
     - item: education
     - item: experiences
     - item: publications
     - item: certification
     - item: teaching
     - item: projects
-      panel_id: skill-panel
     - item: hobbies
