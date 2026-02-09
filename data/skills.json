@@ -4,24 +4,67 @@
   "icon": "bi bi-list-check",
   "list": [
     {
-      "skill": "AI/ML, Robotics, Mechanical Engineering",
-      "skillrating": 95
+      "type": "Profession",
+      "skills": [
+        {"name": "Mechanial Engineering"},
+        {"name": "Roboticist"},
+        {"name": "AI Engineer"},
+        {"name": "Research and Development"}
+      ]
     },
     {
-      "skill": "Python, Solidworks, Machining",
-      "skillrating": 90
+      "type": "Programming Languages",
+      "skills": [
+        {
+          "name": "Python",
+          "starting": 2014
+        },
+        {
+          "name": "Java",
+          "starting": 2015
+        },
+        {
+          "name": "C++",
+          "starting": 2016
+        },
+        {
+          "name": "Matlab",
+          "starting": 2018
+        },
+        {
+          "name": "C",
+          "starting": 2019
+        },
+        {
+          "name": "Javascript"
+        }
+      ]
     },
     {
-      "skill": "C, C++, Blender",
-      "skillrating": 80
+      "type": "CAD",
+      "skills": [
+        {
+          "name": "Solidworks",
+          "starting": 2014
+        },
+        {
+          "name": "Blender",
+          "starting": 2018
+        }
+      ]
     },
     {
-      "skill": "Java, Javascript",
-      "skillrating": 70
-    },
-    {
-      "skill": "Spanish, Japanese",
-      "skillrating": 40
+      "type": "Languages",
+      "skills": [
+        {
+          "name": "Spanish",
+          "level": "Beginner"
+        },
+        {
+          "name": "Japanese",
+          "level": "Beginner"
+        }
+      ]
     }
   ]
 }

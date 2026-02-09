@@ -1,18 +1,34 @@
 <script>
-  let elem = document.querySelector("#skill-panel");
-  if (elem) {
-  let skillPanel = elem.previousElementSibling;
-  skillPanel.addEventListener("click", function() {
-    let skillBars = document.querySelectorAll("#skill-percent");
-    skillBars.forEach(elem => {
-      elem.style.width = elem.classList[0];
+  const current_year = new Date().getFullYear();
+
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    document.querySelectorAll('#skill-years').forEach(elem => {
+      const start = parseInt(elem.getAttribute('data-starting'), 10);
+      if (!isNaN(start)) {
+        const years = current_year - start;
+        elem.textContent = `(${years}+ years)`;
+      }
+    });
+
+    document.querySelectorAll('#skill-level').forEach(elem => {
+      const level = elem.getAttribute('data-starting');
+      elem.textContent = `(${level})`;
     });
   });
-}
 </script>
+
 {{ range .Site.Data.skills.list }}
-<code>{{ .skill }}</code>
-<div class="w-100 mt-1 mb-3 border border-black dark:border-gray-300 rounded-sm" style="height: 1.25rem;">
-  <div id="skill-percent" class="{{ .skillrating }}% bg-blue-500 dark:bg-yellow-700 h-full rounded-sm" style="width: 0; transition: all 0.5s;"></div>
-</div>
+<h4 style="text-decoration: underline">{{ .type }}</h4>
+<ul class="my-2 ms-4 prose prose-stone dark:prose-invert max-w-none list-disc list-outside pl-6">
+  {{ range .skills }}
+  {{ if .starting }}
+    <li class="marker:text-gray-700 dark:marker:text-gray-200">{{ .name }} <span id="skill-years" data-starting="{{ .starting }}"></span></li>
+  {{ else if .level }}
+    <li class="marker:text-gray-700 dark:marker:text-gray-200">{{ .name }} <span id="skill-level" data-starting="{{ .level }}"></span></li>
+  {{ else  }}
+    <li class="marker:text-gray-700 dark:marker:text-gray-200">{{ .name }}</li>
+  {{ end }}
+  {{ end }}
+</ul>
 {{ end }}
