@@ -3,7 +3,7 @@
   "icon": "bi bi-book",
   "format": ["date", "authors", "title", "journal"],
   "delimiter": "; ",
-  "types": ["Journal Articles", "Proceedings", "Chapter", "Poster"],
+  "types": ["Proceedings", "Chapter", "Poster"],
   "list": [
     {
       "title": "Effects of Uniaxial Tensile Strain on Moth Wings Through Digital Image Correlation",
