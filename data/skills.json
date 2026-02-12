@@ -4,15 +4,6 @@
   "icon": "bi bi-list-check",
   "list": [
     {
-      "type": "Profession",
-      "skills": [
-        {"name": "Mechanial Engineering"},
-        {"name": "Roboticist"},
-        {"name": "AI Engineer"},
-        {"name": "Research and Development"}
-      ]
-    },
-    {
       "type": "Programming Languages",
       "skills": [
         {
@@ -36,7 +27,8 @@
           "starting": 2019
         },
         {
-          "name": "Javascript"
+          "name": "Javascript",
+          "level": "4+ years"
         }
       ]
     },
@@ -57,11 +49,11 @@
       "type": "Languages",
       "skills": [
         {
-          "name": "Spanish",
+          "name": "Japanese",
           "level": "Beginner"
         },
         {
-          "name": "Japanese",
+          "name": "Spanish",
           "level": "Beginner"
         }
       ]

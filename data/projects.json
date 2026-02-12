@@ -13,9 +13,9 @@
       "description": "For our final project in Mechatronics, we created a claw that would grab an object and calculate the width of it. I worked on this project with Christian Crowley and Yunsik Jung. The criteria for this project was to create a device with at least one sensor and one actuator. It also needed to be programmable and use a custom designed pcb."
     },
     {
-      "title": "Turtleboy SLAM",
+      "title": "Turtlebot SLAM",
       "url": "/docs/HCR_Poster_Final.pdf",
-      "description": "For our final project in Human Centered Robotics, we investigated different exploration methods for mapping an indoor environment. I performed this project with Alex Dodge, Mitchell Waibel, and Tyler Thune. The equipment utilized for this project were a TurtleBot 2 with and Orbbec Astra camera. For mapping the Turtlebot’s surroundings, we compared the Real-Time Apperance Based Mapping and GMapping algorithms. For exploration, we used the Fronteir Exploration algorithm."
+      "description": "For our final project in Human Centered Robotics, we investigated different exploration methods for mapping an indoor environment. I performed this project with Alex Dodge, Mitchell Waibel, and Tyler Thune. The equipment utilized for this project were a TurtleBot 2 with an Orbbec Astra camera. For mapping the Turtlebot’s surroundings, we compared the Real-Time Apperance Based Mapping and GMapping algorithms. For exploration, we used the Fronteir Exploration algorithm."
     }
   ]
 }
